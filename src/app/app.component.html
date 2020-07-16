@@ -1,0 +1,25 @@
+<ng-container>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <canvas baseChart 
+          [data]="chartData"
+          [labels]="chartLabels"
+          [chartType]="chartType"
+        ></canvas>
+      </div>
+      <div class="col-12">
+        <ag-grid-angular
+        style="width: 1000px;height: 200px;"
+        [rowData]="rowData"
+        [columnDefs]="colDef"
+        pagination="true"
+        class="ag-theme-alpine"
+        paginationPageSize = "3"
+        >
+
+        </ag-grid-angular>
+      </div>
+    </div>
+  </div>
+</ng-container>
