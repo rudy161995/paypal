@@ -22,7 +22,7 @@
     "ag-grid-angular": "^23.2.1",
     "ag-grid-community": "^23.2.1",
     "bootstrap": "^4.5.0",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "jQuery": "^1.7.4",
     "jquery": "^3.5.1",
     "ng2-charts": "^2.3.2",
